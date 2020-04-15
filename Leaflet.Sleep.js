@@ -103,7 +103,7 @@ L.Map.Sleep = L.Handler.extend({
     if (!this._map.scrollWheelZoom.enabled()){
       this._map.scrollWheelZoom.enable();
     }
-    if (this._map.tap && !this._map.tap.enabled()) {
+    if (this._map.tap) {
       this._map.touchZoom.enable();
       this._map.dragging.enable();
       this._map.tap.enable();
@@ -158,7 +158,6 @@ L.Map.Sleep = L.Handler.extend({
     if (this._map.tap) {
       this._map.touchZoom.enable();
       this._map.dragging.enable();
-      this._map.tap.enable();
       this._map.addControl(this._sleepButton);
     }
     L.DomUtil.setOpacity( this._map._container, 1);
