@@ -1,6 +1,6 @@
 {
-  "name": "leaflet-sleep",
-  "version": "0.5.1",
+  "name": "boldtrn-leaflet-sleep",
+  "version": "0.1.0",
   "main": "Leaflet.Sleep.js",
   "description": "Leaflet plugin preventing unwanted scroll capturing",
   "scripts": {
